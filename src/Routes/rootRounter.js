@@ -8,7 +8,7 @@ import Profile from '../Pages/Profile/profile';
 
 const RootRouter = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="shopping">
             <Header />
             <Routes>
                 <Route path="/" element={<Login />} />
